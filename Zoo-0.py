@@ -1,3 +1,4 @@
+
 #general class for objects
 class Things:
     pass
@@ -16,23 +17,31 @@ class Mammals(Animals):
 class Large_Mammals(Mammals):
     pass
 class Elephant(Large_Mammals):
-    pass
+    def __init__(self):
+        print("Made an elephant")
 class Gorilla(Large_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Gorilla")
 class Zebra(Large_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Zebra")
 class Giraffe(Large_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Giraffe")
 class Tiger(Large_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Tiger")
 class Small_Mammals(Mammals):
     pass
 class Fox(Small_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Fox")
 class Raccoon(Small_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Raccoon")
 class Monkey(Small_Mammals):
-    pass
+    def __init__(self):
+        print("Made a Monkey")
 #does the animal lay eggs
 class Lays_Eggs(Animals):
     pass
@@ -40,21 +49,38 @@ class Lays_Eggs(Animals):
 class Reptiles(Lays_Eggs):
     pass
 class Snake(Reptiles):
-    pass
+    def __init__(self):
+        print("Made a Snake")
 #is the animal that lays eggs a Fish
 class Fish(Lays_Eggs):
     pass
 class Flounder(Fish):
-    pass
+    def __init__(self):
+        print("Made a Flounder")
 class Long_Nose_Butterfly(Fish):
-    pass
+    def __init__(self):
+        print("Made a Long-Nose Butterfly")
 #is the animal that lays eggs a Bird
 class Bird(Lays_Eggs):
     pass
 class Parrot(Bird):
-    pass
+    def __init__(self):
+        print("Made a Parrot")
 class Hummingbird(Bird):
-    pass
+    def __init__(self):
+        print("Made a Hummingbird")
 class Flamingo(Bird):
-    pass
+    def __init__(self):
+        print("Made a Flamingo")
+
+Nemo=Flounder()
+PinkBird=Flamingo()
+Tony=Tiger()
+Swiper=Fox()
+Caesar=Gorilla()
+FishGuy=Long_Nose_Butterfly()
+Fruit_Loops=Parrot()
+Mammoth=Elephant()
+
+
 
